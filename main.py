@@ -1,1 +1,1 @@
-print("Soy el BotTele nombre provision :D")
+print("Soy el BotTele nombre provisional :D")
