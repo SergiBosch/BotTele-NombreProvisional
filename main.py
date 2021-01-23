@@ -1,7 +1,13 @@
 import bot_functions.basics
 import bot_functions.reddit
 
+from mongo.connection import MongoConnection
+from mongo.operations import Operations
 from telegram.ext import Updater, CommandHandler
+
+
+mongo = MongoConnection('telebot', 'credentials')
+operations = Operations(mongo)
 
 updater = Updater('')
 
